@@ -1,0 +1,35 @@
+{
+  "name": "fluent-exec",
+  "version": "0.0.0",
+  "description": "A fluent interface for shell execution in Node.js",
+  "main": "lib/exec.js",
+  "scripts": {
+    "test": "istanbul cover --report html node_modules/.bin/_mocha",
+    "travis": "istanbul cover --report lcovonly node_modules/.bin/_mocha && cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bakerface/fluent-exec.git"
+  },
+  "keywords": [
+    "fluent",
+    "interface",
+    "exec",
+    "promise"
+  ],
+  "author": "Christopher M. Baker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bakerface/fluent-exec/issues"
+  },
+  "homepage": "https://github.com/bakerface/fluent-exec",
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.8",
+    "mocha": "^2.2.1",
+    "should": "^5.2.0"
+  },
+  "dependencies": {
+    "when": "^3.7.2"
+  }
+}
