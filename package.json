@@ -1,6 +1,6 @@
 {
   "name": "fluent-exec",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A fluent interface for shell execution in Node.js",
   "main": "lib/exec.js",
   "scripts": {
